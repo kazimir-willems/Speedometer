@@ -158,10 +158,8 @@ public class LocationService extends Service implements
         mGoogleApiClient.connect();
     }
 
-
     public Location returnLocation()
     {
-
         return mCurrentLocation;
     }
 
@@ -176,4 +174,3 @@ public class LocationService extends Service implements
         return super.onUnbind(intent);
     }
 }
-
